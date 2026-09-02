@@ -25,7 +25,7 @@ fraud-project/
 │   │   ├── train_transaction.csv
 │   │   ├── train_identity.csv
 │   │   └── ...
-│   └── processed/                # Engineered & split datasets
+│   └── processed/                # Engineered & split datasets. I have uploaded the data files to Google drive, as they are too big to upload on Github.
 │       ├── engineered_train.parquet   # 144,233 × 437 cols after FE
 │       ├── split_train.parquet        # 114,174 rows (days 0–127)
 │       ├── split_val.parquet          # 13,225 rows (days 127–155)
@@ -73,6 +73,7 @@ pip install -r requirements.txt
 #    https://www.kaggle.com/competitions/ieee-fraud-detection/rules
 kaggle competitions download -c ieee-fraud-detection -p data/raw/
 unzip data/raw/ieee-fraud-detection.zip -d data/raw/
+# Download the data/processed from my google drive link(https://drive.google.com/drive/folders/1_UHUQRJdzob14AkWnrE17Gwt5CuGTgy6?usp=sharing)
 ```
 
 ---
