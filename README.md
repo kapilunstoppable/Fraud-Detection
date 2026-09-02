@@ -60,6 +60,8 @@ fraud-project/
 
 ## Setup
 
+### Download the data/processed from my [google drive link](https://drive.google.com/drive/folders/1_UHUQRJdzob14AkWnrE17Gwt5CuGTgy6?usp=sharing)
+
 ```bash
 # 1. Create and activate virtual environment
 python3 -m venv venv
@@ -73,7 +75,7 @@ pip install -r requirements.txt
 #    https://www.kaggle.com/competitions/ieee-fraud-detection/rules
 kaggle competitions download -c ieee-fraud-detection -p data/raw/
 unzip data/raw/ieee-fraud-detection.zip -d data/raw/
-# Download the data/processed from my google drive link(https://drive.google.com/drive/folders/1_UHUQRJdzob14AkWnrE17Gwt5CuGTgy6?usp=sharing)
+
 ```
 
 ---
