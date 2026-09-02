@@ -1,0 +1,15 @@
+catboost>=1.2
+imbalanced-learn>=0.10.1
+joblib>=1.2
+lightgbm>=4.0
+numpy>=1.24
+pandas>=1.5
+pympler>=1.0
+scikit-learn>=1.2
+scipy>=1.10
+seaborn>=0.12
+shap>=0.41
+xgboost>=1.7
+ipykernel
+jupyter
+kaggle

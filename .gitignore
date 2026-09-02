@@ -1,0 +1,41 @@
+# ── Python ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environment ─────────────────────────────────────────
+venv/
+.env
+.venv/
+
+# ── Data — raw CSVs and zip (large; use Kaggle API to download) ─
+data/raw/*.csv
+data/raw/*.zip
+
+# ── Processed parquet splits (re-generatable from src/) ─────────
+data/processed/split_*.parquet
+data/processed/engineered_train.parquet
+
+# ── Model weights (large binary; track JSON/meta only) ──────────
+models/autoencoder_state.pt
+models/logistic_regression.pkl
+models/ae_scaler_and_medians.pkl
+models/xgboost_meta.pkl
+
+# ── macOS ────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ── Jupyter ──────────────────────────────────────────────────────
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# ── IDE ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+
+# ── Logs / temp ──────────────────────────────────────────────────
+*.log
+*.tmp
